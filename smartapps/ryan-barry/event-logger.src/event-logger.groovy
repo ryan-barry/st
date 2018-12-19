@@ -2,8 +2,8 @@
 definition(
     name: "Event Logger",
     namespace: "ryan-barry",
-    author: "Ryan Barry",`
-    description: "Pull device capabilities. and other things",
+    author: "Ryan Barry",
+    description: "Pull device capabilities. and other things, stuff n stuff",
     category: "Convenience",
 )
 
