@@ -59,8 +59,8 @@ def doPoll() {
 
 			if(state)
 			{
-				log.debug "humidity value as a string: ${state.value}"
-				log.debug "humidity value date recorded ${state.date}"
+				log.debug "${device.name} - humidity value as a string: ${state.value}"
+				log.debug "${device.name} - humidity value date recorded ${state.date}"
 			}
             
 
@@ -68,8 +68,8 @@ def doPoll() {
 
 			if(tempState)
 			{
-				log.debug "Temp value as a string: ${tempState.value}"
-				log.debug "Temp value date recorded ${tempState.date}"
+				log.debug "${device.name} - Temp value as a string: ${tempState.value}"
+				log.debug "${device.name} - Temp value date recorded ${tempState.date}"
 			}
 		}
         
