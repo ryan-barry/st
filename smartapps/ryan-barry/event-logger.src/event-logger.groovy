@@ -29,11 +29,11 @@ def updated() {
 }
 
 def doPoll() {
-
-	
 	log.debug "running doPoll"
     //log.debug(pollingDevices)
     
+	log.debug(pollingDevices.value)
+
     for (device in pollingDevices)
     {
     	log.debug "Number of devices: ${pollingDevices}"
@@ -56,7 +56,7 @@ def doPoll() {
         	}
             */
             
-            def state  = device.currentState("humidity")
+            def state = device.currentState("humidity")
 
 			if(state)
 			{
