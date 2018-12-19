@@ -1,5 +1,5 @@
 /**
- *  Simple Event Logger - SmartApp v 1.4.1
+ *  Simple Event Logger - SmartApp v 1.4.2
  *
  *  Author: 
  *    Kevin LaFramboise (krlaframboise)
