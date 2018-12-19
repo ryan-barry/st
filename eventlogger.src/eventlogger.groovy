@@ -5,8 +5,6 @@ definition(
     author: "Ryan Barry",
     description: "Test polling devices, attributes, etc.",
     category: "Convenience",
-    iconUrl: "https://s3.amazonaws.com/smartapp-icons/Meta/window_contact.png",
-    iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Meta/window_contact@2x.png"
 )
 
 preferences {
