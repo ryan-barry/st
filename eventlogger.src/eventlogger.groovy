@@ -3,7 +3,7 @@ definition(
     name: "eventlogger",
     namespace: "ryan-barry",
     author: "Ryan Barry",
-    description: "Test polling devices, attributes, etc.",
+    description: "Pull device capabilities",
     category: "Convenience",
 )
 
