@@ -2,8 +2,8 @@
 definition(
     name: "eventlogger",
     namespace: "ryan-barry",
-    author: "Ryan Barry",
-    description: "Pull device capabilities",
+    author: "Ryan Barry",`
+    description: "Pull device capabilities. and other things",
     category: "Convenience",
 )
 
@@ -30,6 +30,7 @@ def updated() {
 
 def doPoll() {
 
+	
 	log.debug "running doPoll"
     //log.debug(pollingDevices)
     
