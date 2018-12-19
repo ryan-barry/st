@@ -32,6 +32,8 @@ def doPoll() {
 	log.debug "running doPoll"
     //log.debug(pollingDevices)
 
+	log.warn "blah blah blah"
+    log.error "test error"
 
     for (device in pollingDevices)
     {
