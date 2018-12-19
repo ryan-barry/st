@@ -1,6 +1,6 @@
 
 definition(
-    name: "eventlogger",
+    name: "Event Logger",
     namespace: "ryan-barry",
     author: "Ryan Barry",`
     description: "Pull device capabilities. and other things",
