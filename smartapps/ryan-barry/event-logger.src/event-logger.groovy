@@ -31,8 +31,7 @@ def updated() {
 def doPoll() {
 	log.debug "running doPoll"
     //log.debug(pollingDevices)
-    
-	log.debug(pollingDevices.value)
+
 
     for (device in pollingDevices)
     {
